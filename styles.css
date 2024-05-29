@@ -1,0 +1,131 @@
+/* CSS styles similar to previous styles */
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Ascunde scroll-ul implicit */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #465151;
+            color: #fff;
+        }
+        .content {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            overflow-y: auto; /* Permiterea scroll-ului vertical */
+            max-height: 90vh; /* Limitarea înălțimii maxime a conținutului */
+        }
+        h2 {
+            text-align: center;
+        }
+        .book {
+            background: rgba(0,0,0,0.3);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .book-title {
+            font-size: 20px;
+        }
+        .book-details {
+            margin-top: 5px;
+            font-size: 16px;
+        }
+        .logout-btn, .delete-account-btn {
+            padding: 10px 20px;
+            font-size: 15px;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-decoration: none;
+            display: block;
+            width: 150px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .logout-btn {
+            background-color: #4a77d4;
+        }
+        .delete-account-btn {
+            background-color: #d9534f;
+        }
+        .quantity-input {
+            width: 50px;
+        }
+        .add-to-cart-btn {
+            background-color: #4caf50;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .add-to-cart-btn:hover {
+            background-color: #45a049;
+        }
+        .shopping-cart {
+            margin-top: 20px;
+            background: rgba(0,0,0,0.3);
+            padding: 10px;
+            border-radius: 5px;
+            overflow-y: auto; /* Permiterea scroll-ului vertical */
+        }
+        .cart-item {
+            margin-bottom: 10px;
+        }
+        .decrease-quantity-btn, .remove-from-cart-btn {
+            background-color: #d9534f;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+        }
+        .decrease-quantity-btn:hover, .remove-from-cart-btn:hover {
+            background-color: #c9302c;
+        }
+        .reset-cart-btn {
+            background-color: #d9534f;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .reset-cart-btn:hover {
+            background-color: #c9302c;
+        }
+        .place-order-btn {
+            background-color: #4a77d4; /* Culoarea albastră */
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .place-order-btn:hover {
+            background-color: #3c6dcc; /* Schimbarea culorii la hover */
+        }
+        .view-history-btn {
+            background-color: #ffa500; /* Culoarea portocalie */
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .view-history-btn:hover {
+            background-color: #e69500; /* Schimbarea culorii la hover */
+        }
+        .history-entry {
+            margin-bottom: 10px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 5px;
+        }
